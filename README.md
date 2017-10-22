@@ -33,4 +33,4 @@ El objetivo de esta pagina es crear un menú horizontal,esto lo haremos distorci
 - uso de pseudoclases: usaremos dos pseudoclases hover y active, la primera nos serviran para cambiar el color del backgraund cuando pasa el cursor y la segunda para cambiar el color del backgraund cuando hacemos click.
 
 ## Imagen
-- ![Horizontal menu](/images/Horizontal-menu.pgn)
+- ![Horizontal menu](/images/Horizontal-menu.png)
