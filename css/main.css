@@ -2,16 +2,23 @@ body {
     font-family: sans-serif;
 }
 nav {
-    background: #000;
+    /*outline: 1px solid red;*/
     width: 500px;
-    height: 30px;
 }
 ul {
     /*outline: 1px solid red;*/
     list-style: none;
     margin: 0;
     padding: 0;
+    background: #000;
     line-height: 30px;
+    overflow: auto;
+}
+li {
+    /*outline: 1px solid yellow;*/
+    width: 90px;
+    float: left;
+    text-align: center;
 }
 a:hover {
     background: #ffc107;
@@ -22,14 +29,10 @@ a:active {
     color: #fff;
 }
 a {
-    /*outline: 1px solid purple;*/
-    text-align: center;
+    /*outline: 1px solid green;*/
     text-decoration: none;
+    display: block;
     color: #fff;
-    width: 80px;
-    float: left;
 }
-ul li:first-child a {
-    width: 60px;
-}
+
 
