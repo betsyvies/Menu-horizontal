@@ -1,10 +1,14 @@
+/*Primero declaramos el tipo de letra que usaremos para la pagina*/
 body {
     font-family: sans-serif;
 }
+/*Al contenedor de nuestro menu le damos un ancho*/
 nav {
     /*outline: 1px solid red;*/
     width: 500px;
 }
+/*Al ser <ul> a etiqueta padre de nuestra lista cambiara los valores de margin
+y padding de sus hijos, así como tambien el estilo de lista, el color de fondo y su tipo de flujo*/
 ul {
     /*outline: 1px solid red;*/
     list-style: none;
@@ -14,20 +18,25 @@ ul {
     line-height: 30px;
     overflow: auto;
 }
+/*La etiqueta <li> nos ayudará a darle el tamaño, la posicion y el alineado de texto a su hijo <a>*/
 li {
     /*outline: 1px solid yellow;*/
     width: 90px;
     float: left;
     text-align: center;
 }
+/*Utilizaremos :hover para cambiar el color del backgraund cuando pasa el cursor*/
 a:hover {
     background: #ffc107;
     color: #000;
 }
+/*Utilizaremos :active para cambiar el color del backgraund cuando hacemos click*/
 a:active {
     background: rgb(122, 119, 119);
     color: #fff;
 }
+/*Usaremos la etiqueta <a> para cambiar la decoracion del texto y el tipo de elemento
+ que es, tambien le daremos color al texto*/
 a {
     /*outline: 1px solid green;*/
     text-decoration: none;
