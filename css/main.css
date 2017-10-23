@@ -7,7 +7,7 @@ nav {
     /*outline: 1px solid red;*/
     width: 500px;
 }
-/*Al ser <ul> a etiqueta padre de nuestra lista cambiara los valores de margin
+/*Al ser <ul> como etiqueta padre de nuestra lista cambiara los valores de margin
 y padding de sus hijos, así como tambien el estilo de lista, el color de fondo y su tipo de flujo*/
 ul {
     /*outline: 1px solid red;*/
@@ -25,12 +25,12 @@ li {
     float: left;
     text-align: center;
 }
-/*Utilizaremos :hover para cambiar el color del backgraund cuando pasa el cursor*/
+/*Utilizaremos la pseudoclase "hover" para cambiar el color del backgraund cuando pasa el cursor*/
 a:hover {
     background: #ffc107;
     color: #000;
 }
-/*Utilizaremos :active para cambiar el color del backgraund cuando hacemos click*/
+/*Utilizaremos la pseudoclase "active" para cambiar el color del backgraund cuando hacemos click*/
 a:active {
     background: rgb(122, 119, 119);
     color: #fff;
